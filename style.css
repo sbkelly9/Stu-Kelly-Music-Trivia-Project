@@ -9,3 +9,35 @@ h2 {
 	color: black;
 	font-size: 30px;
 }
+
+
+body {
+font-family: Helvetica;
+background-color: lightblue;
+}
+
+#questions {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+text-align: center;
+text-decoration-color: white;
+}
+
+#header {
+margin-top: 0;
+background-image: url("guitar-image.webp");
+border: 2px solid black;
+padding: 60px;
+height: 250px;
+width: 950px;
+color: white;
+overflow: none;
+margin-left: auto;
+margin-right: auto;
+
+}
