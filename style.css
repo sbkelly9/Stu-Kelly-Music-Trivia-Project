@@ -2,6 +2,7 @@ h1 {
 	text-align: center;
 	color: green;
 	font-size: 35px;
+	font-family: 'Neucha', cursive;
 }
 
 h2 {
@@ -13,31 +14,35 @@ h2 {
 
 body {
 font-family: Helvetica;
-background-color: lightblue;
+background-color: beige;
 }
 
-#questions {
+#form1 {
+margin-top: 10px;
 width: 80%;
 max-width: 950px;
-border: 1px gray solid;
+border: 2px gray solid;
 margin: auto;
 padding: 10px;
 background-color: white;
 border-radius: 10px;
-text-align: center;
+text-align: left;
 text-decoration-color: white;
 }
 
 #header {
 margin-top: 0;
-background-image: url("guitar-image.webp");
+background-image: url("ultimate-music-trivia.png");
 border: 2px solid black;
+background-repeat: no-repeat;
+background-size: 100% 100%;
 padding: 60px;
 height: 250px;
-width: 950px;
+width: 1050px;
 color: white;
-overflow: none;
+overflow: hidden;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 10px;
 
 }

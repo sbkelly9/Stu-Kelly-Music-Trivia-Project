@@ -1,6 +1,8 @@
+document.getElementById("submitbutton").addEventListener("click", myFunction);
 
-
-document.getElementById("form1").onsubmit=function(){
+function myFunction(event) {
+  console.log("Click")
+	event.preventDefault()
 	topact = parseInt(document.querySelector('input[name = "topact"]:checked').value);
 	prince = parseInt(document.querySelector('input[name = "prince"]:checked').value);
 	clapton = parseInt(document.querySelector('input[name = "clapton"]:checked').value);
@@ -28,5 +30,6 @@ document.getElementById("form1").onsubmit=function(){
 	   
 
 
-return false; // required to not refresh the page; just leave this here
-} //this ends the submit function
+return false; 
+}
+
