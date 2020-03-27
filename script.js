@@ -27,6 +27,14 @@ function myFunction(event) {
 	// querySelectorAll()
 	// div.classList.add("correct-answer");
 
+
+		let correctAnswers = document.querySelectorAll('input[value="5"]')
+		correctAnswers.forEach(answer=>{
+			let answerText=answer.nextSibling;
+			answerText.style.backgroundColor="yellow"
+		})
+		// console.log(correctAnswers)
+
 		   result = topact + prince + clapton + elvis + jay + thriller + jimi + tool + passaway + manson + phish + rhcp + billie + marvin + dave + aretha + mtv + bowie + zeppelin + floyd;
 	   
 	document.getElementById("grade").innerHTML = result;
