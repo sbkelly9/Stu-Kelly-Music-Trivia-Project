@@ -24,6 +24,9 @@ function myFunction(event) {
 	zeppelin = parseInt(document.querySelector('input[name = "zeppelin"]:checked').value);
 	floyd = parseInt(document.querySelector('input[name = "floyd"]:checked').value);
 
+	// querySelectorAll()
+	// div.classList.add("correct-answer");
+
 		   result = topact + prince + clapton + elvis + jay + thriller + jimi + tool + passaway + manson + phish + rhcp + billie + marvin + dave + aretha + mtv + bowie + zeppelin + floyd;
 	   
 	document.getElementById("grade").innerHTML = result;
